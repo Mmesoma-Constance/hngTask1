@@ -3,6 +3,13 @@
   padding: 0;
 }
 
+.content {
+  overflow: hidden;
+
+  justify-content: center;
+  align-items: center;
+}
+
 .headerItems {
   display: flex;
   flex-wrap: wrap;
@@ -30,10 +37,11 @@ header {
 
 .myName,
 .myTrack,
+.mail,
 .info {
   font-family: Georgia, "Times New Roman", Times, serif;
-  padding-left: 20px;
-  font-size: 20px;
+  /* padding-left: 20px; */
+  font-size: 18px;
 }
 
 .myName {
@@ -49,16 +57,23 @@ header {
 }
 
 .imageDiv {
-  display: flex;
+  display: block;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .myImage {
   height: auto;
   width: auto;
+}
+
+.mail {
+  text-decoration: none;
+  color: black;
 }
 
 #time {
@@ -67,6 +82,8 @@ header {
   border-radius: 10px;
   padding-left: 15px;
   padding-right: 15px;
+  font-style: normal;
+  font-size: 16px;
 }
 
 /* section */
@@ -97,6 +114,8 @@ section {
   align-items: center;
   padding-top: 15px;
   gap: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .box {
@@ -130,7 +149,7 @@ section {
   padding-top: 10px;
   padding-bottom: 10px;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 19px;
 }
 
 .myGoalMsg {
@@ -167,7 +186,8 @@ footer {
   text-align: center;
   justify-content: center;
   align-items: center;
-  gap: 15px;
+  flex-wrap: wrap;
+  gap: 16px;
   color: black;
   padding-top: 6px;
   padding-bottom: 15px;

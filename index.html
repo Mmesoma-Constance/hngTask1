@@ -6,130 +6,140 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <!-------------- header -------------------->
-    <header class="">
-      <div class="headerItems">
+    <div class="content">
+      <!-------------- header -------------------->
+      <header class="">
+        <div class="headerItems">
+          <div class="">
+            <h1 class="myGoalHeading">
+              MY TECH GOALS <br />
+              FOR THE NEXT TWO YEARS
+            </h1>
+
+            <p data-testid="slackDisplayName" class="myName">Stacyy__dev</p>
+            <p class="mytrack">Frontend Track</p>
+            <p>
+              <a
+                href="mailto:mmesomanwokem@gmail.com"
+                class="mail"
+                data-testid="slackEmail"
+                >mmesomanwokem@gmail.com</a
+              >
+            </p>
+
+            <div class="info">
+              <span data-testid="currentDay" id="day"></span>
+              <span data-testid="currentTimeUTC" id="time"></span>
+            </div>
+          </div>
+
+          <div class="imageDiv">
+            <img
+              data-testid="slackProfilePicture"
+              src="image/myImage.jpg"
+              class="myImage"
+            />
+          </div>
+        </div>
+      </header>
+
+      <!-------------- body -------------------->
+
+      <section class="">
         <div class="">
-          <h1 class="myGoalHeading">
+          <h1 class="myGoal">
             MY TECH GOALS <br />
             FOR THE NEXT TWO YEARS
           </h1>
-
-          <p data-testid="slackDisplayName" class="myName">Stacyy__dev</p>
-          <p class="mytrack">Frontend Track</p>
-          <p data-testid="slackEmail" class="mytrack">
-            mmesomanwokem@gmail.com
+          <p class="myGoalMsg">
+            In the next two years, I have several ambitious goals in the tech
+            field;
           </p>
+          <div class="boxContainer">
+            <div class="box">
+              <span class="number">1</span>
+              <h2 class="goalHead">Learn Advanced JavaScript</h2>
+              <p class="goalText">
+                I will like to deepen my understanding of JavaScript, including
+                modern frameworks like React and TypeScript.
+              </p>
+            </div>
 
-          <div class="info">
-            <span data-testid="currentDay" id="day"></span>
-            <span data-testid="currentTimeUTC" id="time"></span>
+            <div class="box">
+              <span class="number">2</span>
+              <h2 class="goalHead">Master Backend Technologies</h2>
+              <p class="goalText">
+                Gain expertise in Node.js, Express, SQL and MongoDB. <br />
+                I will like to Build full stack projects and improve my testing
+                and debugging skills.
+              </p>
+            </div>
+
+            <div class="box">
+              <span class="number">3</span>
+              <h2 class="goalHead">Develop Mobile Apps</h2>
+              <p class="goalText">
+                Learn Mobile App Development with Flutter or React Native. I
+                plan to create at least two mobile applications that solve
+                real-world problems.
+              </p>
+            </div>
+
+            <div class="box">
+              <span class="number">4</span>
+              <h2 class="goalHead">Contribute to Open Source</h2>
+              <p class="goalText">
+                I will like to contribute to at least three significant projects
+                by participating in open source projects and improving my coding
+                skills.
+              </p>
+            </div>
+
+            <div class="box">
+              <span class="number">5</span>
+              <h2 class="goalHead">Attend Tech Conferences</h2>
+              <p class="goalText">
+                I will like to Participate in at least three major conferences
+                to network, learn from tech experts and get inspired and
+                motivated.
+              </p>
+            </div>
+
+            <div class="box">
+              <span class="number">6</span>
+              <h2 class="goalHead">Land A Job</h2>
+              <p class="goalText">
+                Secure a fullfilling job in the tech industry by earning
+                certificates to demonstrate my proficiency in a specific
+                technologies and apply to companies known for innovation and
+                growth opportunities.
+              </p>
+            </div>
           </div>
         </div>
+      </section>
 
-        <div class="imageDiv">
-          <img
-            data-testid="slackProfilePicture"
-            src="image/myImage.jpg"
-            class="myImage"
-          />
+      <!-------------- footer -------------------->
+
+      <footer class="">
+        <div class="">
+          <h3 class="usefulLink">Useful Links</h3>
+          <p class="">Here are some of the resources I find useful:</p>
+          <div class="links">
+            <a href="http://hng.tech/learn" data-testid="hngLink"
+              >HNG.tech/learn</a
+            >
+            <a href="http://keyword.dog" data-testid="keywordLink"
+              >Keyword.dog</a
+            >
+            <a href="http://scrapeanyweb.site" data-testid="scrapeanywebLink"
+              >Scrapeanyweb.site</a
+            >
+          </div>
+          <span class="copywright">&copy; 2024 HNG11. All rights reserved</span>
         </div>
-      </div>
-    </header>
-
-    <!-------------- body -------------------->
-
-    <section class="">
-      <div class="">
-        <h1 class="myGoal">
-          MY TECH GOALS <br />
-          FOR THE NEXT TWO YEARS
-        </h1>
-        <p class="myGoalMsg">
-          In the next two years, I have several ambitious goals in the tech
-          field;
-        </p>
-        <div class="boxContainer">
-          <div class="box">
-            <span class="number">1</span>
-            <h2 class="goalHead">Learn Advanced JavaScript</h2>
-            <p class="goalText">
-              I will like to deepen my understanding of JavaScript, including
-              modern frameworks like React and TypeScript.
-            </p>
-          </div>
-
-          <div class="box">
-            <span class="number">2</span>
-            <h2 class="goalHead">Master Backend Technologies</h2>
-            <p class="goalText">
-              Gain expertise in Node.js, Express, SQL and MongoDB. <br />
-              I will like to Build full stack projects and improve my testing
-              and debugging skills.
-            </p>
-          </div>
-
-          <div class="box">
-            <span class="number">3</span>
-            <h2 class="goalHead">Develop Mobile Apps</h2>
-            <p class="goalText">
-              Learn Mobile App Development with Flutter or React Native. I plan
-              to create at least two mobile applications that solve real-world
-              problems.
-            </p>
-          </div>
-
-          <div class="box">
-            <span class="number">4</span>
-            <h2 class="goalHead">Contribute to Open Source</h2>
-            <p class="goalText">
-              I will like to contribute to at least three significant projects
-              by participating in open source projects and improving my coding
-              skills.
-            </p>
-          </div>
-
-          <div class="box">
-            <span class="number">5</span>
-            <h2 class="goalHead">Attend Tech Conferences</h2>
-            <p class="goalText">
-              I will like to Participate in at least three major conferences to
-              network, learn from tech experts and get inspired and motivated.
-            </p>
-          </div>
-
-          <div class="box">
-            <span class="number">6</span>
-            <h2 class="goalHead">Land A Job</h2>
-            <p class="goalText">
-              Secure a fullfilling job in the tech industry by earning
-              certificates to demonstrate my proficiency in a specific
-              technologies and apply to companies known for innovation and
-              growth opportunities.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-------------- footer -------------------->
-
-    <footer class="">
-      <div class="">
-        <h3 class="usefulLink">Useful Links</h3>
-        <p class="">Here are some of the resources I find useful:</p>
-        <div class="links">
-          <a href="http://hng.tech/learn" data-testid="hngLink"
-            >HNG.tech/learn</a
-          >
-          <a href="http://keyword.dog" data-testid="keywordLink">Keyword.dog</a>
-          <a href="http://scrapeanyweb.site" data-testid="scrapeanywebLink"
-            >Scrapeanyweb.site</a
-          >
-        </div>
-        <span class="copywright">&copy; 2024 HNG11. All rights reserved</span>
-      </div>
-    </footer>
+      </footer>
+    </div>
 
     <script src="index.js"></script>
   </body>

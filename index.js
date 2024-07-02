@@ -9,6 +9,7 @@ setInterval(function () {
   const currentTime = currentTimeUTC[4];
   const currentDay = now.toLocaleString("en-us", { weekday: "long" });
 
+  // console.log(currentTimeUTC);
   presentDay.textContent = currentDay;
   presentTime.textContent = currentTime;
 }, 1000);
