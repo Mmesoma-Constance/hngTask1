@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.headerItems {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  gap: 40px;
+  overflow: hidden;
+}
+
+header {
+  background-color: #c06874;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.myGoalHeading {
+  font-size: 35px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.myName,
+.myTrack,
+.info {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+.myName {
+  font-size: 23px;
+  padding-bottom: 8px;
+  padding-top: 9px;
+}
+
+.info {
+  padding-top: 20px;
+  font-style: italic;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.imageDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.myImage {
+  height: auto;
+  width: auto;
+}
+
+#time {
+  background-color: rgb(216, 153, 169, 0.7);
+  padding: 5px;
+  border-radius: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* section */
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  margin: auto;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.myGoal {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bolder;
+  font-size: 21px;
+}
+
+.boxContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+  gap: 30px;
+}
+
+.box {
+  background-color: rgb(216, 153, 169, 0.7);
+  width: 300px;
+  height: auto;
+  padding: 15px;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  text-align: start;
+}
+
+.number {
+  font-size: 20px;
+  background-color: #c06874;
+  color: white;
+  padding: 8px;
+  padding-top: 16px;
+  padding-left: 12px;
+  padding-right: 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+  margin: 10px;
+  margin-left: 20px;
+}
+
+.goalHead {
+  padding-top: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding: 2px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.myGoalMsg {
+  padding: 10px;
+  font-size: 19px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.goalText {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font: 17px;
+}
+
+/* footer */
+
+footer {
+  background-color: #c06874;
+  margin-top: 45px;
+  padding: 10px;
+  padding-top: 14px;
+  padding-left: 25px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.usefulLink {
+  font-size: 18px;
+  padding-bottom: 7px;
+  text-align: center;
+}
+
+.links {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  color: black;
+  padding-top: 6px;
+  padding-bottom: 15px;
+  font-size: 14px;
+}
+
+.copywright {
+  font-size: small;
+}
